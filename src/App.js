@@ -8,8 +8,12 @@ import Hello from './component/hello';
 function App() {
   return (
     <div className="App">
-      <Greet />
-      <Welcome />
+      <Greet name='Aman'/>
+      <Greet name='Aditya'>
+        <p>this is an inner html</p>
+      </Greet>
+      <Welcome name='Aman'/>
+      <Welcome name='Aman Jha'/>
       <Hello />
     </div>
   );
